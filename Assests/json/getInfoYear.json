@@ -1,0 +1,29 @@
+{
+    "YearData": [
+        {
+            "BCAI": "2025",
+            "BCAII": "B2024",
+            "BCAIII": "BC2023"
+        },
+        {
+            "BBAI": "2025",
+            "BBAII": "B2024",
+            "BBAIII": "BB2023"
+        },
+        {
+            "BCPI": "2025",
+            "BCPII": "B2024",
+            "BCPIII": "BC2023"
+        },
+        {
+            "BBA(IB)I": "BBA(2025",
+            "BBA(IB)II": "BBA(I2024",
+            "BBA(IB)III": "BBA(IB2023"
+        },
+        {
+            "BA(JMC)I": "BA(J2025",
+            "BA(JMC)II": "BA(JM2024",
+            "BA(JMC)III": "BA(JMC2023"
+        }
+    ]
+}
