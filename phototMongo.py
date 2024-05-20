@@ -7,7 +7,7 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
 # Connect to MongoDB
-uri = "mongodb+srv://sxcmt:sxcmt@sxcmt.uvrp8pj.mongodb.net/?retryWrites=true&w=majority&appName=SXCMT"
+uri = "Connect MongoDB"
 client = MongoClient(uri, server_api=ServerApi('1'))   
 db = client["userdb"]
 collection = db["image"]

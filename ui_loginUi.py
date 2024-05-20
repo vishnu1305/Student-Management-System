@@ -109,7 +109,7 @@ class Ui_MainWindow(object):
         username = self.loginEdit.toPlainText().strip()
         password = self.passwordEdit.toPlainText().strip()
 
-        uri = "mongodb+srv://sxcmt:sxcmt@sxcmt.uvrp8pj.mongodb.net/?retryWrites=true&w=majority&appName=SXCMT"
+        uri = "Connect MongoDB"
 
         # Create a new client and connect to the server
         client = MongoClient(uri, server_api=ServerApi('1'))
@@ -163,7 +163,7 @@ class Ui_MainWindow(object):
 
     def save_new_password(self, username, new_password, dialog):
         # Connect to MongoDB
-        uri = "mongodb+srv://sxcmt:sxcmt@sxcmt.uvrp8pj.mongodb.net/?retryWrites=true&w=majority&appName=SXCMT"
+        uri = "Connect MongoDB"
         client = MongoClient(uri, server_api=ServerApi('1'))
         db = client["userdb"]
         collection = db["login"]
